@@ -1,4 +1,4 @@
-# [Név]
+# [Csák Patrik]
 
 ## Hogyan kezdj neki?
 
