@@ -15,6 +15,69 @@
     <title>BMI Kalkulátor</title>
 </head>
 <body>
-    WORKING....
+    <div class="container">
+
+        <div class="fejlec m-2">
+            <form action="" class="row form">
+                <div class="col-8 pb-2">
+                    <label class="form-label" for="magassag">Írja be cm-ben számított testmagasságát (cipő nélkül mérve):</label>
+                </div>
+                <div class="col-4 pb-2">
+                    <input id="magassag" class="form-control" type="number">
+                </div>
+
+                <div class="col-8 pb-2">
+                    <label class="form-label" for="testsuly">Írja be kg-ban számított testsúlyát (cipő nélkül mérve):</label>
+                </div>
+
+                <div class="col-4 pb-2">
+                    <input id="testsuly" class="form-control" type="number">
+                </div>
+                <div class="col-4">
+                    <button id="submit" class="btn btn-light">Számítás</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="content">
+            <p>AZ ÖN BMI ÉRTÉKE: <span id="bmi"></span></p>
+            <table class="table">
+                <tr id="sovany">
+                    <th>18,5 vagy kevesebb</th>
+                    <td>SOVÁNY</td>
+                </tr>
+                <tr id="normal">
+                    <th>18,5-24,9</th>
+                    <td>NORMÁL</td>
+                </tr>
+                <tr id="tulsuly">
+                    <th>25-29,9</th>
+                    <td>TÚLSÚLY</td>
+                </tr>
+                <tr id="1_foku">
+                    <th>30-34,9</th>
+                    <td>I. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="2_foku">
+                    <th>35-39,9</th>
+                    <td>II. FOKÚ ELHÍZÁS</td>
+                </tr>
+                <tr id="3_foku">
+                    <th>40 vagy több</th>
+                    <td>III. FOKÚ ELHÍZÁS</td>
+                </tr>
+            </table>
+
+            <p>AZ IDEÁLIS TESTTÖMEG: <span id="bmi"></span></p>
+            <table>
+                <tr>
+                    <th></th>
+                    <td></td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
 </body>
 </html>

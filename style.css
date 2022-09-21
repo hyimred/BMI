@@ -1,0 +1,15 @@
+.fejlec{
+    background-color: rgb(216, 107, 18);
+    color: white;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.content{
+    color: rgb(216, 107, 18);
+    padding: 30px;
+}
+
+input {
+    width: auto;
+}
